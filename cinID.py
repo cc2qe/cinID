@@ -4,16 +4,16 @@ import argparse, sys
 import numpy as np
 from argparse import RawTextHelpFormatter
 
-__author__ = "Author (email@site.com)"
+__author__ = "Colby Chiang (cc2qe@virginia.edu)"
 __version__ = "$Revision: 0.0.1 $"
-__date__ = "$Date: 2013-05-09 14:31 $"
+__date__ = "$Date: 2013-11-13 23:33 $"
 
 # --------------------------------------
 # define functions
 
 def get_args():
     parser = argparse.ArgumentParser(formatter_class=RawTextHelpFormatter, description="\
-deconvolute.py\n\
+cinID.py\n\
 author: " + __author__ + "\n\
 version: " + __version__ + "\n\
 description: separate heterogenous tumor sample into subpopulations")
